@@ -139,12 +139,10 @@
               <h3>December 2012 - June 2013</h3>
               <h3>Team Members: Chao Liu, Bhargava Chaitanya</h3>
               <ul>
-                  <li>As the team leader, formed the team; designed a device to measure the distance between the object and itself;</li>
-                  <li>Used a laser diode to shine a laser line onto the target object;</li>
-                  <li>Controlled a camera(OVM7690) to take a picture of the line from the laser diode using RGB RAW mode;</li>
-				  <li>Designed an algorithm to detect the position of the line on the picture to calculate the distance between the target object and the device; </li>
-				  <li>Made the Makefile to compile the inline assembly language and used inline assembly language to speed up the data processing; 
-                  <li>Used Eagle to design the PCB.</li>
+                  <li>Designed a laser range finder which is low-cost, very small, reliable and high-speed real-time device;</li>
+                  <li>Simulated SCCB protocol on STM32F373 and configured the camera(OV7670) in Raw RGB mode and VGA resolution;</li>
+				  <li>Made the Makefile to compile the inline assembly language and used inline assembly language to speed up the data processing;</li>
+                  <li>Transmitted the data to the master device via SPI.</li>
               </ul>
         </div>
         <div class="article">
@@ -156,8 +154,8 @@
               <ul>
                   <li>Designed 3 moving robots to compete in Hockey games;</li>
                   <li>Used C language to control ATmega32U4 to output PWM to control the motors; </li>
-                  <li>Designed an algorithm to localize the robot itself in the rink with a COMS camera which can take -a photo of the 4 Fixed stars above the rink; </li>
-                  <li>Used multi-channel ADC technology to get signals from 8 phototransistors and then used PD controller to control the robot to move towards the puck and also move to the goal continuously; </li>
+                  <li>Designed an algorithm to localize the robot itself in the rink with a COMS camera which can take a photo of the 4 Fixed stars above the rink; </li>
+                  <li>Used multi-channel ADCs to get signals from 8 phototransistors and then used PD controller to control the robot to move towards the puck and also move to the goal continuously; </li>
                   <li>Used one Timer of the microcontroller to design a delay function and then control the solenoid to kick the puck at a suitable time. </li>
                   
                   
@@ -193,10 +191,8 @@
               <h3>Team Members: Chao Liu, Burke Kevin, Rui Zhang</h3>
               <ul>
                   <li>Designed a robot which can be fully self-contained with only two coaxially-mounted wheels touching the ground; </li>
-                  <li>Chose suitable motors(Pololu 47:1 25mm motor), acquired the position information of the robot with a gyro and an accelerometer(MPU6050) and Hall Effect Trans(SS494B), and then processed the data with an ADC; </li>
-                  <li>Sent the data to ATmega32U4 to control 2 I/O pins to produce a suitable PWM output to make the robot balanced; </li>
-                  <li>Used Kalman Filter to get rid of the undependable data from the sensors and use PD controller to determine the relationship between the PWM and the signals.</li>
-                  
+                  <li>Chose suitable motors(Pololu 47:1 25mm motor), acquired the position information of the robot with a gyro and an accelerometer(MPU6050) and Hall Effect Trans(SS494B);</li>
+                  <li>Used Kalman Filter to process the data from the sensors and designed a PD controller to balance the robot.</li>
               </ul>
         </div>
         <div class="article">
