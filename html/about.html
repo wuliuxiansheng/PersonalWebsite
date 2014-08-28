@@ -79,11 +79,11 @@
               <h3>November 10, 2013 - December 20, 2013</h3>
               <h3>Team Members: Chao Liu, Chenyang Zhu, Hanfei Sun</h3>
               <ul>
-                  <li>Designed a vehicle robot with Omni-wheels and holonomic control;</li>
+                  <li>Designed a wearable device with EMG sensors(read muscle signals) and an IMU to measure the muscle activation and motion to control robots;</li>
+                  <li>Designed a mobile robot with Omni-wheels and holonomic control;</li>
                   <li>Hacked a toy connon and placed it on the vechile robot;</li>
-                  <li>Designed a circuit board with an IMU, an xBee and so on and a PID controller for a quadrotor;</li>
-                  <li>Designed a device with muscle(EMG) sensors and an IMU to measure the muscle activation and motion and output some control commands to the vehicle robot and the quadrotor;</li>
-                  <li>Controlled the vehicle robot to shoot the quadrotor.</li>
+                  <li>Designed a circuit board with an IMU, an xBee and so on and a low-level PID controller for a quadrotor;</li>
+                  <li>Controlled the vehicle robot to shoot the quadrotor by the wearable devices.</li>
               </ul>
         </div>
 	  	<div class="article">
@@ -92,7 +92,7 @@
               <h3>November 20, 2013 - December 10, 2013</h3>
               <h3>Team Members: Chao Liu, Jianqiao Li, Shuotian Chen</h3>
               <ul>
-                  <li>Process the data with NLP methods to know more properties of the words;</li>
+                  <li>Process user reviews with NLP methods to know more properties of the words;</li>
                   <li>Used Naïve Bayes, SVM and our own kernel to train the data and got a model.</li>
               </ul>
         </div>
@@ -101,10 +101,10 @@
 			  <h3><a href="http://modlabupenn.org/persona/"><span>Click to the project link</span></a></h3>
               <div class="clr"></div>
               <h3>July 2013 - August 2013</h3>
-              <h3>Team Members: Jay Davey, Chao Liu, Yanwei, Gabby, Uriah, Seethu, Chatty</h3>
+              <h3>Team Members: Jay Davey, Chao Liu, Yanwei Du, Gabby, Uriah, Seethu, Chatty</h3>
               <ul>
-                  <li>Designed a force sensor with IR and phototransistors and designed the PCB with Eagle;</li>
-                  <li>Designed a servo controller to control the servos for the tablet motion;</li>
+                  <li>Designed a infrared-based force sensor and associated PCB;</li>
+                  <li>Implemented a servo controller for tablet-driven motors;</li>
                   <li>Designed PID controllers for the base motion and mast rotation with encoders.</li>
               </ul>
         </div>
@@ -115,10 +115,8 @@
           <h3>February 2013 - March 2013</h3>
           <h3>Team Members: Chao Liu</h3>
           <ul>
-              <li>Chose FT5306 to be the touchscreen controller and designed the interface circuit for the microcontroller(Cortex-M4) and the capacitive touchscreen;</li>
-              <li>Wrote the code with C language to control the communication between FT5306 and M4 with I2C;</li>
-              <li>Designed the PCB layout with Eagle.</li>
-              
+              <li>Used FT5306 controller for capacitive touchscreen;</li>
+              <li>designed the interface PCB and code for comminucation between STM32F373(Cortex-M4) and FT5306 via IIC;</li>
           </ul>
         </div>
         <div class="article">
@@ -141,7 +139,7 @@
               <h3>Team Members: Chao Liu, Bhargava Chaitanya</h3>
               <ul>
                   <li>Designed a laser range finder which is a low-cost, very small, reliable and high-speed real-time device;</li>
-                  <li>Simulated SCCB protocol on STM32F373 and configured the camera(OV7670) in Raw RGB mode and VGA resolution;</li>
+                  <li>Simulated SCCB protocol on STM32F373 and configured the camera(OV7670) in Raw RGB mode with VGA resolution;</li>
 				  <li>Made the Makefile to compile the inline assembly language and used inline assembly language to speed up the data processing;</li>
                   <li>Transmitted the data to the master device via SPI.</li>
               </ul>
@@ -153,10 +151,11 @@
               <h3>November 2012 - December 2012</h3>
               <h3>Team Members: Chao Liu, Burke Kevin, Rui Zhang, Sehrawat Sukreeti</h3>
               <ul>
-                  <li>Designed 3 moving robots to compete in Hockey games;</li>
-                  <li>Designed an algorithm to localize the robot itself in the rink with a COMS camera which can take a photo of the 4 Fixed stars above the rink; </li>
-                  <li>Used multi-channel ADCs to get signals from 8 phototransistors and then designed a PD controller to control the robot to move towards the puck and then move to the goal; </li>
-                  <li>Used one Timer of the microcontroller to design a delay function and then control a solenoid to kick the puck at a suitable time. </li>
+                  <li>Competed in 3-on-3 hockey played by fully-automnomous robots;</li>
+                  <li>Designed an algorithm to localize the robot itself in the rink with a Wii infrared camera which can take a photo of the 4 Fixed stars above the rink;</li>
+                  <li>Implemented RF wireless communication modules to communicate with each other;</li>
+                  <li>Designed PD controller to capture puck and move toward goad;</li>
+                  <li>Integrated solenoid for "shooting".</li>
               </ul>
         </div>
         <div class="article">
